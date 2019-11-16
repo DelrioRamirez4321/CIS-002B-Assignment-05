@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-size: 20px;
@@ -5,22 +9,28 @@ body {
 }
 h1 {
     color: rgb(38, 195, 43);
-    background-color: rgb(34, 34 , 34)
+    background-color: rgb(34, 34 , 34);
+    margin: 0 0 0.5em 0;
+    padding-left: 0.5em;
 }
 
 h2 {
     color: white;
-}
-
-p {
-    color: rgb(74, 74, 74)
+    margin: 0.5em;
+    padding-left: 0.5em;
 }
 
 #IBM {
     display:block;
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 432px;
 }
 #Product {
     text-align:center;
+    color: rgb(74, 74, 74);
+    margin: 0.5em;
+}
+#copyright {
+    color: white;
+    font-size: 14px;
 }
