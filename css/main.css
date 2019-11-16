@@ -1,9 +1,26 @@
+
 body {
     font-size: 20px;
+    background-color: rgb(17, 17, 17);
 }
+h1 {
+    color: rgb(38, 195, 43);
+    background-color: rgb(34, 34 , 34)
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: rgb(74, 74, 74)
+}
+
 #IBM {
     display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:50%;
+    margin:0 auto;
+    max-width: 432px;
+}
+#Product {
+    text-align:center;
 }
